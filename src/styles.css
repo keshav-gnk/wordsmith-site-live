@@ -1,0 +1,120 @@
+h1 {
+    text-align: center;
+    color: rgb(192, 137, 69);
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner {
+    object-fit: cover;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto' sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Inter' sans-serif;
+}
+#navbar {
+    padding: 8px;
+}
+#logo {
+    height: 32px;
+}
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+#description {
+    width: 50%;
+    padding-right: 8px;
+}
+#team {
+    width: 50%;
+}
+
+#team-image {
+    border-radius: 8px;
+    widht: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#jobs-disc {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.job-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: left;
+}
+
+.jobs-data-row td {
+    border-right: 1px solid gray;
+    padding: 8px; 
+}
+ #jobs-disc tr:nth-child(odd){
+    background-color: ghostwhite;
+ }
+
+#application{
+    max-width: 800 px;
+    margin: 0 auto;
+    padding :0 8 px;
+} 
+application-form label{
+font-weight: 800;
+}
+application-form input{
+ padding:4px;
+ font-size: 1.25rem;
+ margin-top: 4px;
+}
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.apply {
+    float: right;
+}
+
+#footer {
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32 px;
+    text-align: center;
+
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+#copyright {
+    color: gray;
+}
